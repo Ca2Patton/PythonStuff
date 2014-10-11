@@ -2,12 +2,8 @@
 #import pdb; pdb.set_trace()
 
 def wordMultiply(word):
-	multiplier = 4
-	if multiplier == 0:
-		pass
-	else:
+	for count in range(4):
 		print word
-	multiplier -= 1
 
 if __name__ == "__main__":
 	wordMultiply("happy")
