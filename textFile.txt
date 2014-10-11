@@ -1,0 +1,29 @@
+VxChildScoreboard info:
+entry#:0 sledid:0,pid:60331,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:1 sledid:1392453576,pid:60482,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:2 sledid:788328128,pid:60266,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:3 sledid:0,pid:59740,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:4 sledid:14636698891333264,pid:60247,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:5 sledid:0,pid:60490,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:6 sledid:788328128,pid:60487,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:7 sledid:0,pid:60481,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:8 sledid:1725288824,pid:59562,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:9 sledid:2233270840,pid:60158,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:10 sledid:2563395656,pid:60053,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:11 sledid:0,pid:59243,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:12 sledid:0,pid:59683,requestStart:1392656336,slotinuse:1,intransaction:0
+entry#:13 sledid:2607271256,pid:58590,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:14 sledid:1891432936,pid:60489,requestStart:1392656336,slotinuse:1,intransaction:1
+entry#:15 sledid:0,pid:57761,requestStart:1392656336,slotinuse:1,intransaction:0
+...
+VxLockArena info:
+LockArenaReadWrite:
+sid:1392453576,pid:60482,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:788328128,pid:60266,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:788328128,pid:60487,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:14636698891333264,pid:60247,slotInUse:1,deadPid:0,readLock:0,lockType:2,cache_writable:1 progname:qmda_server
+sid:1891432936,pid:60489,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:2233270840,pid:60158,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:yapache
+sid:2563395656,pid:60053,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:1725288824,pid:59562,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:imapd
+sid:2607271256,pid:58590,slotInUse:1,deadPid:0,readLock:0,lockType:1,cache_writable:1 progname:yapache
