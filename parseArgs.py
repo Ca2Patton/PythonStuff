@@ -5,7 +5,6 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("square", help="Display a square of a given number", type=int)
 args = parser.parse_args()
-print args.square**2
 
 parser.add_argument("-v", "--verbose", action="count", default=0, help="increase output verbosity")
 args = parser.parse_args()
