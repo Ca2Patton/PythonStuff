@@ -54,8 +54,6 @@ class PongGame(Widget):
 		#Bounce ball
 		if (self.ball.y < 0) or (self.ball.top > self.height):
 			self.ball.velocity_y *= -1
-		if (self.ball.x < 0) or (self.ball.right > self.width):
-			self.ball.velocity_x *= -1
 
 		#Scoring
 		if self.ball.x < self.x:
