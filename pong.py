@@ -21,7 +21,7 @@ class PongPaddle(Widget):
 	
 	def on_touch_down(self, touch):
 		color = (random(), random(), random())
-		with self.canvas:
+		with self.canvas.before:
 			Color(*color)
 
 class PongBall(Widget):
