@@ -18,12 +18,9 @@ class PongPaddle(Widget):
 			bounced = Vector(-1 * vx , vy)
 			vel = bounced * 1.1
 			ball.velocity = vel.x, vel.y + offset
-	
-	def on_touch_down(self, touch):
-		color = (random(), random(), random())
-		with self.canvas.before:
-			Color(*color)
-
+			color = (random(), random(), random())
+			with self.canvas.before:
+				Color(*color)
 class PongBall(Widget):
 
 	#velocity of the ball on the X and Y Axis
