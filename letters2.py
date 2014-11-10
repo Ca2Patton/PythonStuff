@@ -8,5 +8,7 @@ counter = 0
 #initialize for loop
 for i in new_input:
 	if counter % 2:
-		print int(new_input[counter]) * new_input[counter - 1]
+		fun = int(new_input[counter]) * new_input[counter - 1]
+		sys.stdout.write(fun)
 	counter += 1
+print("")
