@@ -1,10 +1,20 @@
-#!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
+#!/usr/bin/env python
 
-from Tkinter import *
+import Tkinter as tk
 
-root = Tk()
+#Learning how to use classes and Tkinter
 
-w = Label(root, text="Hello, world!")
-w.pack()
+class Application(tk.Frame):
+	def __init__(self, master=None):
+		tk.Frame.__init__(self, master)
+		self.grid()
+		self.createWidgets()
 
-root.mainloop()
+	def createWidgets(self):
+		self.quitButton = tk.Button(self, text='Quit', command=self.quit)
+		self.quitButton.grid()
+		self.helloWorld = tk.Button(self, text='Hello World!', command=self.quit)
+		self.helloWorld.grid()
+app = Application()
+app.master.title('Hello World!')
+app.mainloop()
